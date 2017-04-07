@@ -1,0 +1,137 @@
+/* General styles */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+
+.caption {
+    display: none;
+}
+
+/*Styles applied to the header section*/
+.name-title {
+    text-align: right;
+}
+
+.name {
+    font-family: 'Roboto', sans-serif;
+}
+
+.title {
+    font-family: 'Open Sans', sans-serif;
+}
+.logo-div {
+    padding: 0;
+}
+
+.heading-rule {
+    border: solid 2px;
+    height: 0;
+    color: #7d97ad;
+    margin: 0 0 15px 0;
+}
+
+/* Styles applied to the landing section */
+.welcome-line {
+    text-align: center;
+    color: #2d3c49;
+}
+
+
+/* Styles applied to the featured section */
+.landing {
+    width: 100%;
+}
+
+.featured {
+    width: 100%;
+}
+
+.featured-title {
+    color: #7d97ad;
+    margin: 20px 0 0 10px;
+}
+
+.featured-work {
+    color: #2d3c49;
+    text-align: center;
+}
+
+.work-link {
+    color: #2d3c49;
+}
+
+.work-title {
+    font-size: 2em;
+    margin: 10px 0 0 0;
+}
+
+/* Styles for responsiveness under media queries */
+@media screen and (max-width: 413px){
+    .heading {width: 100%;}
+    
+    .logo {
+    margin: 13px 0 13px 0;
+    }
+
+    .name-title {
+        margin: 8px 0 13px 0;
+        padding: 0;
+    }
+
+    .name {
+        font-size: 2.5em;
+        margin: 15px 0 0 0;
+        padding: 0;
+    }
+
+    .title {
+        font-size: 0.8em;
+        margin: 0;
+    }
+
+    .featured-title {
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 769px){
+    .logo {
+        margin: 13px 0 13px 0;
+    }
+
+    .name-title {
+        margin: 23px 0 0 0;
+        padding: 0 20px 0 0;
+    }
+
+    .name {
+        font-size: 3.5em;
+        margin: 15px 0 0 0;
+        padding: 0;
+    }
+
+    .title {
+        font-size: 1.1em;
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .logo {
+        margin: 13px 0 13px 0;
+    }
+
+    .name-title {
+        margin: 40px 0 0 0;
+        padding: 0 20px 0 0;
+    }
+
+    .name {
+        font-size: 4em;
+        margin: 15px 0 0 0;
+        padding: 0;
+    }
+
+    .title {
+        font-size: 1.1em;
+        margin: 0;
+    }
+}

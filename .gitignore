@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+.idea
+*.iml
+out
+gen
+/bootstrap-3.3.7-dist/
+/images_src/
+/node_modules/
+/package.json
+/Gruntfile.js
+/css/bootstrap.min.css
