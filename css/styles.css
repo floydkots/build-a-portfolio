@@ -1,5 +1,5 @@
 /* General styles */
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto');
+@import url(https://fonts.googleapis.com/css?family=Open+Sans|Roboto);
 
 .caption {
     display: none;
@@ -11,14 +11,15 @@
 }
 
 .name {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
 }
 
 .title {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 .logo-div {
     padding: 0;
+    margin: 0;
 }
 
 .heading-rule {
@@ -36,10 +37,6 @@
 
 
 /* Styles applied to the featured section */
-.landing {
-    width: 100%;
-}
-
 .featured {
     width: 100%;
 }
@@ -64,16 +61,15 @@
 }
 
 /* Styles for responsiveness under media queries */
-@media screen and (max-width: 413px){
-    .heading {width: 100%;}
-    
+@media screen and (max-width: 413px) {
     .logo {
-    margin: 13px 0 13px 0;
+        margin: 13px 0 13px 0;
+        padding: 0;
     }
 
     .name-title {
         margin: 8px 0 13px 0;
-        padding: 0;
+        padding: 0 13px 0 0;
     }
 
     .name {
