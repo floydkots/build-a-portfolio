@@ -17,15 +17,14 @@
 .title {
     font-family: "Open Sans", sans-serif;
 }
+
 .logo-div {
     padding: 0;
     margin: 0;
 }
 
 .heading-rule {
-    border: solid 2px;
-    height: 0;
-    color: #7d97ad;
+    border-bottom: 5px solid #7d97ad;
     margin: 0 0 15px 0;
 }
 
@@ -69,7 +68,7 @@
 
     .name-title {
         margin: 8px 0 13px 0;
-        padding: 0 13px 0 0;
+        padding: 0 0 0 0;
     }
 
     .name {
@@ -94,12 +93,12 @@
     }
 
     .name-title {
-        margin: 23px 0 0 0;
-        padding: 0 20px 0 0;
+        margin: 0;
+        padding: 5% 0 0 0;
     }
 
     .name {
-        font-size: 3.5em;
+        font-size: 3.2em;
         margin: 15px 0 0 0;
         padding: 0;
     }
